@@ -8,7 +8,7 @@ import (
 /**
 https://leetcode-cn.com/problems/zigzag-conversion/
 */
-func convertZ(s string, numRows int) string {
+func ConvertZ(s string, numRows int) string {
 	if numRows < 2 {
 		return s
 	}
